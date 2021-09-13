@@ -1,0 +1,16 @@
+POST http://localhost:5000/api/user/registration
+Content-Type: application/json
+
+ {
+     "UserName": "test",
+     "Email":"karinatkachenko9873@gmail.com",
+     "Password":"Qwerty_21"
+ }
+
+# POST http://localhost:5000/api/user/login
+#Content-Type: application/json
+
+ #{
+  #   "Email":"karinatkachenko9873@gmail.com",
+  #   "Password":"Qwerty_21"
+ #}
